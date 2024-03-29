@@ -1,0 +1,8 @@
+C:\Users\ASUS\Desktop\CGP\Newest\Assignment\Debug\Assignment.vcxproj.MdMergeInputs.cache
+C:\Users\ASUS\Desktop\CGP\Newest\Assignment\Debug\Assignment.vcxproj.cppwinrt_plat.cache
+C:\Users\ASUS\Desktop\CGP\Newest\Assignment\Debug\Assignment.vcxproj.cppwinrt_comp.cache
+C:\Users\ASUS\Desktop\CGP\Newest\Assignment\Debug\Assignment.exe
+D:\degree sem 1\BACS2224 Computer Game Programming\Ver 3.0\Ver 3.0\Assignment\Debug\Assignment.vcxproj.MdMergeInputs.cache
+D:\degree sem 1\BACS2224 Computer Game Programming\Ver 3.0\Ver 3.0\Assignment\Debug\Assignment.vcxproj.cppwinrt_plat.cache
+D:\degree sem 1\BACS2224 Computer Game Programming\Ver 3.0\Ver 3.0\Assignment\Debug\Assignment.vcxproj.cppwinrt_comp.cache
+D:\degree sem 1\BACS2224 Computer Game Programming\Ver 3.0\Ver 3.0\Assignment\Debug\Assignment.exe
