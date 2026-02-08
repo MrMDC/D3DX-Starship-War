@@ -1,5 +1,7 @@
 bg - 960x540 / 1024x720
-button - 1300x750 - 1300x250 3 row 1 col
+button - 1300x750 - 1300x250 3 row 1 col (x
+title - 1024x400
+button - 512 x 100
 pointer - 24x24
 spaceship - 64x64 - 32x32 2 row 2 col
 bomb - 256x256 / 30x30

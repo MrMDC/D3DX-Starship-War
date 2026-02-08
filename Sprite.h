@@ -49,7 +49,7 @@ public:
 	void init(LPCSTR address, int maxFrame, int textureWidth, int textureHeight, int spriteCol, int spriteRow);
 	HRESULT setTexture(LPCSTR address);
 	void setTextureData(int maxFrame, int textureWidth, int textureHeight, int spriteCol, int spriteRow);
-	void SetColor(D3DCOLOR color);
+	void setColor(D3DCOLOR color);
 
 	D3DXVECTOR2 getPosition();
 	float getRadius();
@@ -60,8 +60,8 @@ public:
 	void setDefaultRotation(float defaultRotation);
 	void setRotation(float rotation);
 	void setScaling(D3DXVECTOR2 scaling);
-	void SetScalingRotation(float scalingRotation);
-	void SetPosition(D3DXVECTOR2 position);
+	void setScalingRotation(float scalingRotation);
+	void setPosition(D3DXVECTOR2 position);
 
 	void render();
 

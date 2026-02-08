@@ -1,3 +1,28 @@
-﻿  MainMenu.cpp
+﻿  Level1.cpp
   C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-  Assignment.vcxproj -> D:\degree sem 1\BACS2224 Computer Game Programming\Ver 3.0\Ver 3.0\Assignment\Debug\Assignment.exe
+C:\Users\Xiao Ze\Desktop\Ver Final\Ver Final\Assignment\Level1.cpp(73,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Xiao Ze\Desktop\Ver Final\Ver Final\Assignment\Level1.cpp(82,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Xiao Ze\Desktop\Ver Final\Ver Final\Assignment\Level1.cpp(100,79): warning C4244: 'argument': conversion from 'int' to 'FLOAT', possible loss of data
+C:\Users\Xiao Ze\Desktop\Ver Final\Ver Final\Assignment\Level1.cpp(108,107): warning C4244: 'argument': conversion from 'int' to 'FLOAT', possible loss of data
+C:\Users\Xiao Ze\Desktop\Ver Final\Ver Final\Assignment\Level1.cpp(122,22): warning C4018: '<': signed/unsigned mismatch
+  Line.cpp
+  C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+C:\Users\Xiao Ze\Desktop\Ver Final\Ver Final\Assignment\Line.cpp(44,22): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  Player.cpp
+  C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+C:\Users\Xiao Ze\Desktop\Ver Final\Ver Final\Assignment\Player.cpp(27,24): warning C4244: '=': conversion from 'FLOAT' to 'LONG', possible loss of data
+C:\Users\Xiao Ze\Desktop\Ver Final\Ver Final\Assignment\Player.cpp(28,25): warning C4244: '=': conversion from 'FLOAT' to 'LONG', possible loss of data
+  Rock.cpp
+  C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+C:\Users\Xiao Ze\Desktop\Ver Final\Ver Final\Assignment\Rock.cpp(36,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Xiao Ze\Desktop\Ver Final\Ver Final\Assignment\Rock.cpp(41,16): warning C4305: '*=': truncation from 'double' to 'float'
+C:\Users\Xiao Ze\Desktop\Ver Final\Ver Final\Assignment\Rock.cpp(74,17): warning C4244: 'argument': conversion from 'double' to 'FLOAT', possible loss of data
+C:\Users\Xiao Ze\Desktop\Ver Final\Ver Final\Assignment\Rock.cpp(76,22): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Xiao Ze\Desktop\Ver Final\Ver Final\Assignment\Rock.cpp(99,24): warning C4244: 'argument': conversion from 'int' to 'FLOAT', possible loss of data
+C:\Users\Xiao Ze\Desktop\Ver Final\Ver Final\Assignment\Rock.cpp(99,21): warning C4244: 'argument': conversion from 'int' to 'FLOAT', possible loss of data
+C:\Users\Xiao Ze\Desktop\Ver Final\Ver Final\Assignment\Rock.cpp(116,36): warning C4244: 'argument': conversion from 'int' to 'FLOAT', possible loss of data
+C:\Users\Xiao Ze\Desktop\Ver Final\Ver Final\Assignment\Rock.cpp(116,21): warning C4244: 'argument': conversion from 'int' to 'FLOAT', possible loss of data
+  WindowManager.cpp
+  C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  Generating Code...
+  Assignment.vcxproj -> C:\Users\Xiao Ze\Desktop\Ver Final\Ver Final\Assignment\Debug\Assignment.exe

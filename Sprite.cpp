@@ -2,18 +2,21 @@
 
 void Sprite::init(LPCSTR address, int maxFrame, int textureWidth, int textureHeight, int spriteCol, int spriteRow)
 {
+	//Set the texture and texture data for the sprite
 	setTexture(address);
 	setTextureData(maxFrame, textureWidth, textureHeight, spriteCol, spriteRow);
 }
 
 HRESULT Sprite::setTexture(LPCSTR address)
 {
+	//Save the address to the texture
 	this->color = D3DCOLOR_XRGB(255, 255, 255);
 	return D3DXCreateTextureFromFile(d3dManager->getDevice(), address, &texture);
 }
 
 void Sprite::setTextureData(int maxFrame, int textureWidth, int textureHeight, int spriteCol, int spriteRow)
 {
+	//Cut the sprites out of the spritesheet
 	this->maxFrame = maxFrame;
 	this->textureWidth = textureWidth;
 	this->textureHeight = textureHeight;
@@ -22,19 +25,22 @@ void Sprite::setTextureData(int maxFrame, int textureWidth, int textureHeight, i
 
 	this->spriteWidth = textureWidth / spriteCol;
 	this->spriteHeight = textureHeight / spriteRow;
+	//If the sprite is a circle
 	this->radius = spriteWidth / 2;
 
+	//Calculate the sprite dimension
 	spriteRect.left = 0;
 	spriteRect.top = 0;
 	spriteRect.right = spriteRect.left + spriteWidth;
 	spriteRect.bottom = spriteRect.top + spriteHeight;
 
+	//Determine the rotation of the sprite
 	scalingCenter = D3DXVECTOR2(0, 0);
 	scaling = D3DXVECTOR2(1, 1);
 	rotationCenter = D3DXVECTOR2(spriteWidth / 2, spriteHeight / 2);
 }
 
-void Sprite::SetColor(D3DCOLOR color)
+void Sprite::setColor(D3DCOLOR color)
 {
 	this->color = color;
 }
@@ -76,6 +82,7 @@ void Sprite::setRotation(float rotation)
 
 void Sprite::setScaling(D3DXVECTOR2 scaling)
 {
+	//Set the dimension of the sprite
 	this->scaling = scaling;
 
 	spriteHeight *= scaling.y;
@@ -89,13 +96,14 @@ void Sprite::setScaling(D3DXVECTOR2 scaling)
 	radius = spriteWidth / 2;
 }
 
-void Sprite::SetScalingRotation(float scalingRotation)
+void Sprite::setScalingRotation(float scalingRotation)
 {
 	this->scalingRotation = scalingRotation;
 }
 
-void Sprite::SetPosition(D3DXVECTOR2 position)
+void Sprite::setPosition(D3DXVECTOR2 position)
 {
+	//Set the collision rectangle of the sprite
 	this->position = position;
 
 	colRect.top = position.y;
@@ -106,12 +114,15 @@ void Sprite::SetPosition(D3DXVECTOR2 position)
 
 void Sprite::render()
 {
+	//Get the sprite brush to start drawint sprites
 	d3dManager->getSpriteBrush()->Begin(D3DXSPRITE_ALPHABLEND);
 
+	//Draw the sprite out according to the transformation matrix defined
 	D3DXMatrixTransformation2D(&matrix, &scalingCenter, scalingRotation, &scaling, &rotationCenter, defaultRotation + rotation, &position);
 	d3dManager->getSpriteBrush()->SetTransform(&matrix);
 	d3dManager->getSpriteBrush()->Draw(texture, &spriteRect, NULL, NULL, color);
 
+	//Finish drawing the sprite
 	d3dManager->getSpriteBrush()->End();
 }
 
@@ -123,11 +134,13 @@ void Sprite::updateFrame()
 
 void Sprite::updateFrameLoop()
 {
+	//Update the frame count
 	currentFrame = (currentFrame + 1) % maxFrame;
 }
 
 void Sprite::updateFrameRect()
 {
+	//Continuously updating the sprite dimension and collision rectangle to make sure they matches
 	spriteRect.left = currentFrame % maxFrame % spriteCol * spriteWidth;
 	spriteRect.top = currentFrame % maxFrame / spriteCol * spriteHeight;
 	spriteRect.right = spriteRect.left + spriteWidth;

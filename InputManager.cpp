@@ -70,6 +70,7 @@ bool InputManager::getKeyPress(int key)
 
 bool InputManager::getMousePress(int mouseClick)
 {
+	//Determine which mouse button was clicked
 	if (mouseClick == leftClick) {
 		return leftMouseClick;
 	}
@@ -86,6 +87,7 @@ D3DXVECTOR2 InputManager::getMousePosition()
 
 void InputManager::resetMousePosition()
 {
+	//Reset the mouse position to this position
 	xPos = 512;
 	yPos = 300;
 
@@ -94,18 +96,21 @@ void InputManager::resetMousePosition()
 
 void InputManager::cleanup()
 {
+	//Cleanup the keyboard
 	if (dInputKeyboardDevice != NULL) {
 		dInputKeyboardDevice->Unacquire();
 		dInputKeyboardDevice->Release();
 		dInputKeyboardDevice = NULL;
 	}
 
+	//Cleanup the mouse
 	if (dInputMouseDevice != NULL) {
 		dInputMouseDevice->Unacquire();
 		dInputMouseDevice->Release();
 		dInputMouseDevice = NULL;
 	}
 
+	//Cleanup the DirectX input
 	if (dInput != NULL) {
 		dInput->Release();
 		dInput = NULL;

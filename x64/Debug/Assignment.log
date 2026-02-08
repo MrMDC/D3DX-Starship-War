@@ -1,0 +1,48 @@
+﻿  Audio.cpp
+C:\Users\Xiao Ze\Desktop\Ver Final\Ver Final\Assignment\Audio.h(5,10): fatal  error C1083: Cannot open include file: 'fmod.hpp': No such file or directory
+  AudioManager.cpp
+C:\Users\Xiao Ze\Desktop\Ver Final\Ver Final\Assignment\AudioManager.h(5,10): fatal  error C1083: Cannot open include file: 'fmod.hpp': No such file or directory
+  D3DManager.cpp
+C:\Users\Xiao Ze\Desktop\Ver Final\Ver Final\Assignment\BasicHeader.h(15,10): fatal  error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  Font.cpp
+C:\Users\Xiao Ze\Desktop\Ver Final\Ver Final\Assignment\BasicHeader.h(15,10): fatal  error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  FrameTimer.cpp
+  Game.cpp
+C:\Users\Xiao Ze\Desktop\Ver Final\Ver Final\Assignment\Game.h(8,10): fatal  error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  GameEngine.cpp
+C:\Users\Xiao Ze\Desktop\Ver Final\Ver Final\Assignment\BasicHeader.h(15,10): fatal  error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  GameOver.cpp
+C:\Users\Xiao Ze\Desktop\Ver Final\Ver Final\Assignment\BasicHeader.h(15,10): fatal  error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  Helper.cpp
+C:\Users\Xiao Ze\Desktop\Ver Final\Ver Final\Assignment\BasicHeader.h(15,10): fatal  error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  InputManager.cpp
+C:\Users\Xiao Ze\Desktop\Ver Final\Ver Final\Assignment\BasicHeader.h(15,10): fatal  error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  Level.cpp
+C:\Users\Xiao Ze\Desktop\Ver Final\Ver Final\Assignment\BasicHeader.h(15,10): fatal  error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  Level1.cpp
+C:\Users\Xiao Ze\Desktop\Ver Final\Ver Final\Assignment\BasicHeader.h(15,10): fatal  error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  Line.cpp
+C:\Users\Xiao Ze\Desktop\Ver Final\Ver Final\Assignment\BasicHeader.h(15,10): fatal  error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  Main.cpp
+C:\Users\Xiao Ze\Desktop\Ver Final\Ver Final\Assignment\BasicHeader.h(15,10): fatal  error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  MainMenu.cpp
+C:\Users\Xiao Ze\Desktop\Ver Final\Ver Final\Assignment\BasicHeader.h(15,10): fatal  error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  MoveableSprite.cpp
+C:\Users\Xiao Ze\Desktop\Ver Final\Ver Final\Assignment\BasicHeader.h(15,10): fatal  error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  Physics.cpp
+C:\Users\Xiao Ze\Desktop\Ver Final\Ver Final\Assignment\BasicHeader.h(15,10): fatal  error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  Player.cpp
+C:\Users\Xiao Ze\Desktop\Ver Final\Ver Final\Assignment\BasicHeader.h(15,10): fatal  error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  Rock.cpp
+C:\Users\Xiao Ze\Desktop\Ver Final\Ver Final\Assignment\BasicHeader.h(15,10): fatal  error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  Settings.cpp
+C:\Users\Xiao Ze\Desktop\Ver Final\Ver Final\Assignment\BasicHeader.h(15,10): fatal  error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  Generating Code...
+  Compiling...
+  Sprite.cpp
+C:\Users\Xiao Ze\Desktop\Ver Final\Ver Final\Assignment\BasicHeader.h(15,10): fatal  error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  Victory.cpp
+C:\Users\Xiao Ze\Desktop\Ver Final\Ver Final\Assignment\BasicHeader.h(15,10): fatal  error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  WindowManager.cpp
+C:\Users\Xiao Ze\Desktop\Ver Final\Ver Final\Assignment\BasicHeader.h(15,10): fatal  error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  Generating Code...

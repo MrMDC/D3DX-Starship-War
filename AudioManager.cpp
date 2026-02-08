@@ -2,6 +2,7 @@
 
 void AudioManager::init()
 {
+	//Initialize the sound manager
 	fresult = FMOD::System_Create(&system);
 	if (fresult != 0) return;
 	fresult = system->init(32, FMOD_INIT_NORMAL, 0);
@@ -12,35 +13,31 @@ void AudioManager::init()
 	if (fresult != 0) return;
 	fresult = system->createChannelGroup("SFX", &effectGrp);
 	if (fresult != 0) return;
-	fresult = masterGrp->addGroup(bgmGrp, 0);
-	if (fresult != 0) return;
-	fresult = masterGrp->addGroup(effectGrp, 0);
-	if (fresult != 0) return;
 
+	//Set the default volume size
 	bgmVolume = 1.0f;
 	effectVolume = 1.0f;
 
+	//Initialize all audios to its respective enum member
 	loadAudio("Assets/Audio/bgm1.mp3", true);
-	audioList.at(background_audio)->init(0.55f, 96000, bgm);
+	audioList.at(background_audio)->init(1.0f, 96000, bgm);
 
 	loadAudio("Assets/Audio/click.mp3", false);
-	audioList.at(click_audio)->init(0.5f, 48000, effect);
-
-	loadAudio("Assets/Audio/rock_break.mp3", false);
-	audioList.at(rock_break)->init(0.5f, 48000, effect);
+	audioList.at(click_audio)->init(0.7f, 48000, effect);
 
 	loadAudio("Assets/Audio/explode.mp3", false);
-	audioList.at(explosion)->init(0.5f, 48000, effect);
+	audioList.at(explosion)->init(0.7f, 48000, effect);
+
+	loadAudio("Assets/Audio/win.mp3", false);
+	audioList.at(win)->init(0.7f, 48000, effect);
 
 	loadAudio("Assets/Audio/game_over.mp3", false);
-	audioList.at(game_over)->init(0.5f, 48000, bgm);
-
-	loadAudio("Assets/Audio/bgm2.mp3", false);
-	audioList.at(background_audio2)->init(0.6f, 96000, bgm);
+	audioList.at(game_over)->init(0.7f, 48000, bgm);
 }
 
 ChannelGroup* AudioManager::checkChannelGroup(int audioType)
 {
+	//Check which type of channel were loaded
 	if (audioType == bgm) {
 		return bgmGrp;
 	}
@@ -54,7 +51,8 @@ ChannelGroup* AudioManager::checkChannelGroup(int audioType)
 void AudioManager::playAudio(int audio)
 {
 	int channelGrp = audioList.at(audio)->getAudioType();
-
+	
+	//Play the audio
 	fresult = system->playSound(audioList.at(audio)->getAudio(), checkChannelGroup(channelGrp), true, &channel);
 	channel->setVolume(audioList.at(audio)->getVolume());
 	channel->setFrequency(audioList.at(audio)->getFrequency());
@@ -69,6 +67,7 @@ void AudioManager::loadAudio(const char* address, boolean loopable)
 	Audio* audio = new Audio();
 	Sound* sound = nullptr;
 
+	//Load the audio out to play it
 	fresult = system->createSound(address, FMOD_DEFAULT, 0, &sound);
 	if (loopable) {
 		fresult = sound->setMode(FMOD_LOOP_NORMAL);
@@ -77,6 +76,7 @@ void AudioManager::loadAudio(const char* address, boolean loopable)
 		fresult = sound->setMode(FMOD_LOOP_OFF);
 	}
 
+	//Push the audio item into a list
 	audio->setAudio(sound);
 	audioList.push_back(audio);
 }
@@ -108,14 +108,14 @@ vector<Audio*> AudioManager::getAudioList()
 
 float AudioManager::getGrpVolume(int grp)
 {
-	switch (grp) {
-	case bgm:
+	if (grp == bgm) {
 		return bgmVolume;
-		break;
-	case effect:
-		return effectVolume;
-		break;
 	}
+	else if (grp == effect) {
+		return effectVolume;
+	}
+
+	return 0.0f;
 }
 
 void AudioManager::setGrpVolume(int grp, float volume)
@@ -128,6 +128,7 @@ void AudioManager::setGrpVolume(int grp, float volume)
 		effectVolume = volume;
 		break;
 	}
+	checkChannelGroup(grp)->setVolume(getGrpVolume(grp));
 }
 
 void AudioManager::startBgm()
@@ -141,6 +142,7 @@ void AudioManager::cleanup()
 		channel = NULL;
 	}
 
+	//Cleanup all the audio saved to the list
 	int vectorSize;
 
 	vectorSize = audioList.size();

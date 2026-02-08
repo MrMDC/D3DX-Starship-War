@@ -4,18 +4,23 @@
 
 #include "MoreHeader.h"
 #include "Sprite.h"
+#include "Line.h"
+#include "Font.h"
 
 class Level : public Game
 {
 protected:
 	vector<Sprite*> spriteList;
-	//vector<Line*> lineList;
-	//vector<Font*> fontList;
+	vector<Line*> lineList;
+	vector<Font*> fontList;
+	bool showCursor = false;
+	Sprite* cursor;
 
 public:
 	void input();
 	void render();
 	void cleanup();
+	void updateCursor();
 
 	~Level();
 };

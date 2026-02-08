@@ -3,6 +3,7 @@
 
 LRESULT CALLBACK WindowProcedure(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam) {
 
+	//Define the window procedure
 	switch (message)
 	{
 	case WM_DESTROY:
@@ -30,14 +31,14 @@ void WindowManager::init()
 	ZeroMemory(&wndClass, sizeof(wndClass));
 
 	//Set window name
-	LPCSTR windowName = "Bump Bump";
+	LPCSTR windowName = "Rock Down";
 
 	//Filling wndClass
 	wndClass.hbrBackground = (HBRUSH)GetStockObject(BLACK_BRUSH);
 	wndClass.hCursor = LoadCursor(NULL, IDC_ARROW);
 	wndClass.hInstance = GetModuleHandle(NULL);
 	wndClass.lpfnWndProc = WindowProcedure;
-	wndClass.lpszClassName = "Bump Bump";
+	wndClass.lpszClassName = "Rock Down";
 	wndClass.style = CS_HREDRAW | CS_VREDRAW;
 
 	//Register the window
@@ -81,6 +82,7 @@ HWND WindowManager::getHandle()
 
 void WindowManager::cleanup()
 {
+	//Cleanup the window
 	UnregisterClass(wndClass.lpszClassName, GetModuleHandle(NULL));
 	if (handle != NULL) {
 		handle = NULL;

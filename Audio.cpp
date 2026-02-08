@@ -11,6 +11,7 @@ Audio::~Audio()
 
 void Audio::init(float volume, int frequency, int audioType)
 {
+	//Initialize variables
 	this->volume = volume;
 	this->frequency = frequency;
 	this->audioType = audioType;
@@ -68,6 +69,7 @@ void Audio::setChannel(Channel* channel)
 
 void Audio::cleanup()
 {
+	//Cleanup the channel and audio resources
 	if (channel != NULL) {
 		channel = NULL;
 	}

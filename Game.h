@@ -10,6 +10,7 @@
 class Game
 {
 public:
+	//
 	virtual void init();
 	virtual void input();
 	virtual void update();

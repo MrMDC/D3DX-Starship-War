@@ -10,7 +10,7 @@ enum AudioType {
 };
 
 enum AudioList {
-	background_audio, click_audio, rock_break, explosion, game_over, background_audio2
+	background_audio, click_audio, explosion, win, game_over
 };
 
 class AudioManager

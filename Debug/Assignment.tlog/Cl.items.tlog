@@ -1,14 +1,23 @@
-D:\degree sem 1\BACS2224 Computer Game Programming\Ver 3.0\Ver 3.0\Assignment\Audio.cpp;D:\degree sem 1\BACS2224 Computer Game Programming\Ver 3.0\Ver 3.0\Assignment\Debug\Audio.obj
-D:\degree sem 1\BACS2224 Computer Game Programming\Ver 3.0\Ver 3.0\Assignment\AudioManager.cpp;D:\degree sem 1\BACS2224 Computer Game Programming\Ver 3.0\Ver 3.0\Assignment\Debug\AudioManager.obj
-D:\degree sem 1\BACS2224 Computer Game Programming\Ver 3.0\Ver 3.0\Assignment\D3DManager.cpp;D:\degree sem 1\BACS2224 Computer Game Programming\Ver 3.0\Ver 3.0\Assignment\Debug\D3DManager.obj
-D:\degree sem 1\BACS2224 Computer Game Programming\Ver 3.0\Ver 3.0\Assignment\FrameTimer.cpp;D:\degree sem 1\BACS2224 Computer Game Programming\Ver 3.0\Ver 3.0\Assignment\Debug\FrameTimer.obj
-D:\degree sem 1\BACS2224 Computer Game Programming\Ver 3.0\Ver 3.0\Assignment\Game.cpp;D:\degree sem 1\BACS2224 Computer Game Programming\Ver 3.0\Ver 3.0\Assignment\Debug\Game.obj
-D:\degree sem 1\BACS2224 Computer Game Programming\Ver 3.0\Ver 3.0\Assignment\GameEngine.cpp;D:\degree sem 1\BACS2224 Computer Game Programming\Ver 3.0\Ver 3.0\Assignment\Debug\GameEngine.obj
-D:\degree sem 1\BACS2224 Computer Game Programming\Ver 3.0\Ver 3.0\Assignment\Helper.cpp;D:\degree sem 1\BACS2224 Computer Game Programming\Ver 3.0\Ver 3.0\Assignment\Debug\Helper.obj
-D:\degree sem 1\BACS2224 Computer Game Programming\Ver 3.0\Ver 3.0\Assignment\InputManager.cpp;D:\degree sem 1\BACS2224 Computer Game Programming\Ver 3.0\Ver 3.0\Assignment\Debug\InputManager.obj
-D:\degree sem 1\BACS2224 Computer Game Programming\Ver 3.0\Ver 3.0\Assignment\Level.cpp;D:\degree sem 1\BACS2224 Computer Game Programming\Ver 3.0\Ver 3.0\Assignment\Debug\Level.obj
-D:\degree sem 1\BACS2224 Computer Game Programming\Ver 3.0\Ver 3.0\Assignment\Main.cpp;D:\degree sem 1\BACS2224 Computer Game Programming\Ver 3.0\Ver 3.0\Assignment\Debug\Main.obj
-D:\degree sem 1\BACS2224 Computer Game Programming\Ver 3.0\Ver 3.0\Assignment\MainMenu.cpp;D:\degree sem 1\BACS2224 Computer Game Programming\Ver 3.0\Ver 3.0\Assignment\Debug\MainMenu.obj
-D:\degree sem 1\BACS2224 Computer Game Programming\Ver 3.0\Ver 3.0\Assignment\Physics.cpp;D:\degree sem 1\BACS2224 Computer Game Programming\Ver 3.0\Ver 3.0\Assignment\Debug\Physics.obj
-D:\degree sem 1\BACS2224 Computer Game Programming\Ver 3.0\Ver 3.0\Assignment\Sprite.cpp;D:\degree sem 1\BACS2224 Computer Game Programming\Ver 3.0\Ver 3.0\Assignment\Debug\Sprite.obj
-D:\degree sem 1\BACS2224 Computer Game Programming\Ver 3.0\Ver 3.0\Assignment\WindowManager.cpp;D:\degree sem 1\BACS2224 Computer Game Programming\Ver 3.0\Ver 3.0\Assignment\Debug\WindowManager.obj
+C:\Users\Xiao Ze\Desktop\Ver Final\Ver Final\Assignment\Audio.cpp;C:\Users\Xiao Ze\Desktop\Ver Final\Ver Final\Assignment\Debug\Audio.obj
+C:\Users\Xiao Ze\Desktop\Ver Final\Ver Final\Assignment\AudioManager.cpp;C:\Users\Xiao Ze\Desktop\Ver Final\Ver Final\Assignment\Debug\AudioManager.obj
+C:\Users\Xiao Ze\Desktop\Ver Final\Ver Final\Assignment\D3DManager.cpp;C:\Users\Xiao Ze\Desktop\Ver Final\Ver Final\Assignment\Debug\D3DManager.obj
+C:\Users\Xiao Ze\Desktop\Ver Final\Ver Final\Assignment\Font.cpp;C:\Users\Xiao Ze\Desktop\Ver Final\Ver Final\Assignment\Debug\Font.obj
+C:\Users\Xiao Ze\Desktop\Ver Final\Ver Final\Assignment\FrameTimer.cpp;C:\Users\Xiao Ze\Desktop\Ver Final\Ver Final\Assignment\Debug\FrameTimer.obj
+C:\Users\Xiao Ze\Desktop\Ver Final\Ver Final\Assignment\Game.cpp;C:\Users\Xiao Ze\Desktop\Ver Final\Ver Final\Assignment\Debug\Game.obj
+C:\Users\Xiao Ze\Desktop\Ver Final\Ver Final\Assignment\GameEngine.cpp;C:\Users\Xiao Ze\Desktop\Ver Final\Ver Final\Assignment\Debug\GameEngine.obj
+C:\Users\Xiao Ze\Desktop\Ver Final\Ver Final\Assignment\GameOver.cpp;C:\Users\Xiao Ze\Desktop\Ver Final\Ver Final\Assignment\Debug\GameOver.obj
+C:\Users\Xiao Ze\Desktop\Ver Final\Ver Final\Assignment\Helper.cpp;C:\Users\Xiao Ze\Desktop\Ver Final\Ver Final\Assignment\Debug\Helper.obj
+C:\Users\Xiao Ze\Desktop\Ver Final\Ver Final\Assignment\InputManager.cpp;C:\Users\Xiao Ze\Desktop\Ver Final\Ver Final\Assignment\Debug\InputManager.obj
+C:\Users\Xiao Ze\Desktop\Ver Final\Ver Final\Assignment\Level.cpp;C:\Users\Xiao Ze\Desktop\Ver Final\Ver Final\Assignment\Debug\Level.obj
+C:\Users\Xiao Ze\Desktop\Ver Final\Ver Final\Assignment\Level1.cpp;C:\Users\Xiao Ze\Desktop\Ver Final\Ver Final\Assignment\Debug\Level1.obj
+C:\Users\Xiao Ze\Desktop\Ver Final\Ver Final\Assignment\Line.cpp;C:\Users\Xiao Ze\Desktop\Ver Final\Ver Final\Assignment\Debug\Line.obj
+C:\Users\Xiao Ze\Desktop\Ver Final\Ver Final\Assignment\Main.cpp;C:\Users\Xiao Ze\Desktop\Ver Final\Ver Final\Assignment\Debug\Main.obj
+C:\Users\Xiao Ze\Desktop\Ver Final\Ver Final\Assignment\MainMenu.cpp;C:\Users\Xiao Ze\Desktop\Ver Final\Ver Final\Assignment\Debug\MainMenu.obj
+C:\Users\Xiao Ze\Desktop\Ver Final\Ver Final\Assignment\MoveableSprite.cpp;C:\Users\Xiao Ze\Desktop\Ver Final\Ver Final\Assignment\Debug\MoveableSprite.obj
+C:\Users\Xiao Ze\Desktop\Ver Final\Ver Final\Assignment\Physics.cpp;C:\Users\Xiao Ze\Desktop\Ver Final\Ver Final\Assignment\Debug\Physics.obj
+C:\Users\Xiao Ze\Desktop\Ver Final\Ver Final\Assignment\Player.cpp;C:\Users\Xiao Ze\Desktop\Ver Final\Ver Final\Assignment\Debug\Player.obj
+C:\Users\Xiao Ze\Desktop\Ver Final\Ver Final\Assignment\Rock.cpp;C:\Users\Xiao Ze\Desktop\Ver Final\Ver Final\Assignment\Debug\Rock.obj
+C:\Users\Xiao Ze\Desktop\Ver Final\Ver Final\Assignment\Settings.cpp;C:\Users\Xiao Ze\Desktop\Ver Final\Ver Final\Assignment\Debug\Settings.obj
+C:\Users\Xiao Ze\Desktop\Ver Final\Ver Final\Assignment\Sprite.cpp;C:\Users\Xiao Ze\Desktop\Ver Final\Ver Final\Assignment\Debug\Sprite.obj
+C:\Users\Xiao Ze\Desktop\Ver Final\Ver Final\Assignment\Victory.cpp;C:\Users\Xiao Ze\Desktop\Ver Final\Ver Final\Assignment\Debug\Victory.obj
+C:\Users\Xiao Ze\Desktop\Ver Final\Ver Final\Assignment\WindowManager.cpp;C:\Users\Xiao Ze\Desktop\Ver Final\Ver Final\Assignment\Debug\WindowManager.obj
